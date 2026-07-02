@@ -1,0 +1,1 @@
+document.querySelectorAll(".buy").forEach(b=>b.onclick=()=>{const p=b.dataset.pack;window.open(`https://wa.me/573000000000?text=${encodeURIComponent("Hola, quiero comprar el paquete "+p+" de PUNTAJE ÉLITE.")}`,"_blank");});
